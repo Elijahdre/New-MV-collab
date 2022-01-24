@@ -1,0 +1,33 @@
+#header{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: black;
+ 
+      
+}
+
+ul{
+    list-style: none;
+  
+  
+}
+
+#header-img{
+    margin-left: 60%;
+}
+
+@media (max-width: 482px) {
+    #header-img{
+        margin-left: 50%;
+        width: 10%;
+    }
+
+    img{
+        width: 100%;
+    }
+    
+}
